@@ -1,0 +1,11 @@
+//Logical operation
+#include<stdio.h>
+int main()
+{
+    int a=5, b=10;
+
+    printf("(a<b) && (b>0) = %d\n", a && b); //AND operation
+    printf("(a>b) || (b>0) = %d\n", a || b); //OR operation
+    printf("!(a==b) = %d\n", !(a==b)); //NOT operation
+    return 0;
+}
