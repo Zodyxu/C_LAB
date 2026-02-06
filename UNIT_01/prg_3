@@ -1,0 +1,15 @@
+/*C programing for displaying differrent data types*/
+#include<stdio.h>
+int main()
+{
+    int a=10;
+    float b=23.1;
+    char c='a';
+    double d=321.784;
+
+    printf("Value of a is %d\n", a);
+    printf("Value of b is %.2f\n", b);
+    printf("Value of c is %c\n", c);
+    printf("Value of d is %.9f\n", d);
+    return 0;
+}  
