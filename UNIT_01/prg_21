@@ -1,0 +1,18 @@
+//Arthemetic Operations(=, +, -, *, /) NOTE:same as prg_6
+
+#include<stdio.h>
+int main()
+{
+    int a, b;
+    printf("Enter the values of a and b:");
+    scanf("%d %d", &a, &b);
+
+    printf("Addition= %d\n", a+b);
+    printf("Subtraction= %d\n", a-b);
+    printf("Multiplication= %d\n", a*b);
+    if(b != 0)
+        printf("Division= %d\n", a/b);
+    else
+        printf("Error: Division by zero is not allowed.\n");
+    return 0;
+}
